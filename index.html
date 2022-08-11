@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Brick Converter</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <main>
+        <h2>Simple Brick Converter</h2>
+        <nav>
+            <input type="number" name="" id="amount" min="1">
+            <select id="unit">
+                <option value="mm">mm</option>
+                <option value="cm">cm</option>
+                <option value="m">m</option>
+                <option value="km">km</option>
+                <option value="stud">stud</option>
+                <option value="plate">plate</option>
+                <option value="brick">brick</option>
+                <option value="minifigure">minifigure</option>
+            </select>
+            <button onclick="calc()">Calculate</button>
+        </nav>
+        <section>
+            <table></table>
+        </section>
+    </main>
+    <script src="./script.js" defer></script>
+</body>
+
+</html>
